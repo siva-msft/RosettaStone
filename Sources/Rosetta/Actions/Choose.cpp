@@ -45,7 +45,7 @@ void ChoiceMulligan(Player& player, const std::vector<std::size_t>& choices)
             for (const auto entity : hand.GetAll())
             {
                 const bool isExist = std::find(choices.begin(), choices.end(),
-                                               entity->id) == choices.end();
+                                               static_cast<size_t>(entity->id)) == choices.end();
                 if (isExist && entity->card->id != "GAME_005")
                 {
                     mulliganList.push_back(entity);

@@ -73,7 +73,7 @@ TEST(ReducedBoardView, All)
     EXPECT_EQ(reducedBoard1.GetMyWeapon().durability, 2);
     EXPECT_EQ(reducedBoard1.GetMyManaCrystal().total, 4);
     EXPECT_EQ(reducedBoard1.GetMyManaCrystal().remaining, 0);
-    EXPECT_EQ(reducedBoard1.GetMyMinions().size(), 5);
+    EXPECT_EQ(reducedBoard1.GetMyMinions().size(), 5u);
     EXPECT_EQ(reducedBoard1.GetMyMinions()[0].cardID, "test0");
     EXPECT_EQ(reducedBoard1.GetMyMinions()[0].attack, 1);
     EXPECT_EQ(reducedBoard1.GetMyMinions()[0].health, 2);
@@ -85,7 +85,7 @@ TEST(ReducedBoardView, All)
     EXPECT_EQ(reducedBoard1.GetOpWeapon().durability, 1);
     EXPECT_EQ(reducedBoard1.GetOpManaCrystal().total, 7);
     EXPECT_EQ(reducedBoard1.GetOpManaCrystal().remaining, 4);
-    EXPECT_EQ(reducedBoard1.GetOpMinions().size(), 3);
+    EXPECT_EQ(reducedBoard1.GetOpMinions().size(), 3u);
     EXPECT_EQ(reducedBoard1.GetOpMinions()[0].cardID, "test1");
     EXPECT_EQ(reducedBoard1.GetOpMinions()[0].attack, 3);
     EXPECT_EQ(reducedBoard1.GetOpMinions()[0].health, 4);

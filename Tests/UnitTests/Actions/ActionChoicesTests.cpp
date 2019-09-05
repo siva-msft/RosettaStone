@@ -38,15 +38,15 @@ TEST(ActionChoices, ChooseFromCardIDs)
     ActionChoices choices(cardIDs);
 
     // Get
-    EXPECT_EQ(choices.Get(0), 1);
-    EXPECT_EQ(choices.Get(1), 4);
-    EXPECT_EQ(choices.Get(2), 6);
+    EXPECT_EQ(choices.Get(0), 1u);
+    EXPECT_EQ(choices.Get(1), 4u);
+    EXPECT_EQ(choices.Get(2), 6u);
 
     // IsEmpty
     EXPECT_EQ(choices.IsEmpty(), false);
 
     // Size
-    EXPECT_EQ(choices.Size(), 3);
+    EXPECT_EQ(choices.Size(), 3u);
 
     //! Begin, IsEnd, StepNext
     int sum = 0;
@@ -63,14 +63,14 @@ TEST(ActionChoices, ChooseFromNumbers)
 
     // Get
     EXPECT_EQ(choices.Get(0), 0);
-    EXPECT_EQ(choices.Get(1), 1);
-    EXPECT_EQ(choices.Get(2), 2);
+    EXPECT_EQ(choices.Get(1), 1u);
+    EXPECT_EQ(choices.Get(2), 2u);
 
     // IsEmpty
     EXPECT_EQ(choices.IsEmpty(), false);
 
     // Size
-    EXPECT_EQ(choices.Size(), 3);
+    EXPECT_EQ(choices.Size(), 3u);
 
     //! Begin, IsEnd, StepNext
     int sum = 0;

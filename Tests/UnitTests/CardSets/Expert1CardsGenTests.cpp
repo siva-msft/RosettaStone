@@ -3259,7 +3259,7 @@ TEST(ShamanExpert1Test, CS2_038_AncestralSpirit)
     EXPECT_EQ(opField[2]->card->name, "Murloc Raider");
 
     game.Process(opPlayer, PlayCardTask::SpellTarget(card2, card4));
-    EXPECT_EQ(opField[1]->appliedEnchantments.size(), 1);
+    EXPECT_EQ(opField[1]->appliedEnchantments.size(), 1u);
 
     game.Process(opPlayer, EndTurnTask());
     game.ProcessUntil(Step::MAIN_START);
@@ -8640,7 +8640,7 @@ TEST(DreamExpert1Test, DREAM_05_Nightmare)
     game.ProcessUntil(Step::MAIN_START);
 
     game.Process(opPlayer, PlayCardTask::SpellTarget(card1, card2));
-    EXPECT_EQ(curField[0]->appliedEnchantments.size(), 1);
+    EXPECT_EQ(curField[0]->appliedEnchantments.size(), 1u);
     EXPECT_EQ(curField.GetCount(), 1);
     EXPECT_EQ(curField[0]->GetAttack(), 10);
     EXPECT_EQ(curField[0]->GetHealth(), 6);
