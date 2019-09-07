@@ -62,7 +62,7 @@ TEST(ActionChoices, ChooseFromNumbers)
     ActionChoices choices(3);
 
     // Get
-    EXPECT_EQ(choices.Get(0), 0);
+    EXPECT_EQ(choices.Get(0), 0u);
     EXPECT_EQ(choices.Get(1), 1u);
     EXPECT_EQ(choices.Get(2), 2u);
 
