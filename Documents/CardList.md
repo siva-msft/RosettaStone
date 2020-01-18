@@ -626,7 +626,7 @@ ULDUM | ULD_186 | Pharaoh Cat |
 ULDUM | ULD_188 | Golden Scarab |  
 ULDUM | ULD_189 | Faceless Lurker |  
 ULDUM | ULD_190 | Pit Crocolisk |  
-ULDUM | ULD_191 | Beaming Sidekick |  
+ULDUM | ULD_191 | Beaming Sidekick | O
 ULDUM | ULD_193 | Living Monument |  
 ULDUM | ULD_194 | Wasteland Scorpid |  
 ULDUM | ULD_195 | Frightened Flunky |  
@@ -717,7 +717,7 @@ ULDUM | ULD_726 | Ancient Mysteries |
 ULDUM | ULD_727 | Body Wrapper |  
 ULDUM | ULD_728 | Subdue |  
 
-- Progress: 0% (0 of 135 Cards)
+- Progress: 0% (1 of 135 Cards)
 
 ## Rise of Shadows
 
