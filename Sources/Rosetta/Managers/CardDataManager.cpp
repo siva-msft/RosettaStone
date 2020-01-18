@@ -7,6 +7,7 @@
 #include <Rosetta/CardSets/CoreCardsGen.hpp>
 #include <Rosetta/CardSets/Expert1CardsGen.hpp>
 #include <Rosetta/CardSets/HoFCardsGen.hpp>
+#include <Rosetta/CardSets/UldumCardsGen.hpp>
 #include <Rosetta/Managers/CardDataManager.hpp>
 
 namespace RosettaStone
@@ -20,6 +21,7 @@ CardDataManager::CardDataManager()
     CoreCardsGen::AddAll(m_powers, m_playReqs, m_entourages);
     Expert1CardsGen::AddAll(m_powers, m_playReqs, m_entourages);
     HoFCardsGen::AddAll(m_powers, m_playReqs, m_entourages);
+    UldumCardsGen::AddAll(m_powers, m_playReqs, m_entourages);
 }
 
 CardDataManager::~CardDataManager()
