@@ -1,4 +1,4 @@
-# RosettaStone card list
+# RosettaBattlegrounds card list
 
 * [Tavern Tier 1](#tavern-tier-1)
 * [Tavern Tier 2](#tavern-tier-2)

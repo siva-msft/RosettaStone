@@ -1,0 +1,30 @@
+# RosettaBattlegrounds hero list
+
+- A. F. Kay
+- Arch-Villain Rafaam
+- Bartendotron
+- Edwin VanCleef
+- Elise Starseeker
+- Dancin' Deryl
+- George the Fallen
+- Infinite Toki
+- Lich Baz'hial
+- Lord Jaraxxus
+- Millhouse Manastorm
+- Millificent Manastorm
+- Nefarian
+- Patches the Pirate
+- Patchwerk
+- Professor Putricide
+- Pyramad
+- Queen Wagtoggle
+- Ragnaros the Firelord
+- Shudderwock
+- Sindragosa
+- Sylvanas Windrunner
+- The Curator
+- The Great Akazamzarak
+- The Lich King
+- The Rat King
+- Tirion Fordring
+- Yogg-Saron, Hope's End

@@ -1,4 +1,4 @@
-# RosettaStone ability list
+# Rosettabattlegrounds ability list
 
 - [Keywords](#keywords)
 - [Other abilities](#other-abilities)
