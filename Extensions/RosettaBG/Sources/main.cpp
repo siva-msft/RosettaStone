@@ -1,6 +1,9 @@
 #include <BGGames/BGGame.hpp>
 
+using namespace RosettaBG;
+
 int main() 
 {
-    test();
+    BGGame game;
+    return game.play();
 }
