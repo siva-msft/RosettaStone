@@ -2,8 +2,8 @@
 
 using namespace RosettaBG;
 
-int main() 
+int main()
 {
     BGGame game;
-    return game.play();
+    return game.Play();
 }
